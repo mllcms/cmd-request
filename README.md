@@ -24,3 +24,5 @@ req.exe post xxx -J [json文件路径]
 # -s --show [请求头 请求体 响应头 响应体] 对应位置给 1 就会显示 默认 0001 只显示响应体 1111 就全部显示
 req.exe get https://api.vvhan.com/api/covid -q city=北京 -s 0011
 ```
+![image](https://user-images.githubusercontent.com/127987138/225523620-e813b598-6d08-48d2-bb04-944f65b1274d.png)
+![image](https://user-images.githubusercontent.com/127987138/225523862-b413d656-ea8f-4a63-9f74-99aac782c8c7.png)
