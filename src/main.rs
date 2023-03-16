@@ -15,6 +15,7 @@ async fn main() -> anyhow::Result<()> {
     Ok(())
 }
 
+/// 网络请求工具
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 enum Command {
