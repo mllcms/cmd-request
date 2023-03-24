@@ -324,13 +324,13 @@ impl Include for &[u8] {
     fn include(&self, s: &[u8]) -> bool {
         let mut index = 0;
         for b in self.iter() {
-            if index == s.len() {
-                return true;
-            }
             if b == &s[index] {
                 index += 1
             } else {
                 index = 0
+            }
+            if index == s.len() {
+                return true;
             }
         }
         false
